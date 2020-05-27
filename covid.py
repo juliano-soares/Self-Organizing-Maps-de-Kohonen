@@ -52,7 +52,6 @@ plt.pcolor(som.distance_map().T, cmap='binary', alpha=.2)
 plt.xticks(np.arange(size+1))
 plt.yticks(np.arange(size+1))
 plt.grid()
-plt.show()
 
 # grafico de agrupamentos
 W = som.get_weights()
